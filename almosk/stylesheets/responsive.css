@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 1020px) {
   article > img,
+  article > iframe,
   .galleryRail img{
     width: 100%;
   }
@@ -26,6 +27,10 @@
   .galleryRail figure{
     width: 768px;
     min-width: 768px;
+  }
+
+  article iframe{
+    height: 190px;
   }
 }
 
